@@ -30,10 +30,6 @@ The Travel API is built using Flask and SQLAlchemy. It allows users to manage tr
 
 ## API Endpoints
 
-# Travel API
-
-## API Endpoints
-
 ### GET /
 
 - **Description**: Welcome message.
@@ -66,6 +62,8 @@ The Travel API is built using Flask and SQLAlchemy. It allows users to manage tr
     "rating": 4.5
   }
 
+---
+
 ### PUT /destinations/int:destination_id
 - **Description**:  Update an existing destination.
 - **Request Body**:
@@ -75,6 +73,8 @@ The Travel API is built using Flask and SQLAlchemy. It allows users to manage tr
   "country": "Updated Country",
   "rating": 5.0
   }
+
+---
 
 ### DELETE /destinations/int:destination_id
 - **Description**:  Delete a destination by ID.
