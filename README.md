@@ -17,7 +17,7 @@ The Travel API is built using Flask and SQLAlchemy. It allows users to manage tr
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/dns2034/REST-API-in-Python/tree/main>
 2. **Navigate to the project directory**:
    ```bash
    cd <project-directory>
