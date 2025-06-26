@@ -64,7 +64,7 @@ The Travel API is built using Flask and SQLAlchemy. It allows users to manage tr
 
 ---
 
-### PUT /destinations/int:destination_id
+### PUT /destinations/<int:destination_id>
 - **Description**:  Update an existing destination.
 - **Request Body**:
   ```json
@@ -76,7 +76,7 @@ The Travel API is built using Flask and SQLAlchemy. It allows users to manage tr
 
 ---
 
-### DELETE /destinations/int:destination_id
+### DELETE /destinations/<int:destination_id>
 - **Description**:  Delete a destination by ID.
 - **URL**: `http://localhost:5000/destinations/2`
 
